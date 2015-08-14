@@ -1,0 +1,14 @@
+C:\Users\kanawut\Documents\Visual Studio 2012\Projects\SMCLoan\SMCLoan\bin\Debug\xunit.execution.desktop.dll
+C:\Users\kanawut\Documents\Visual Studio 2012\Projects\SMCLoan\SMCLoan\bin\Debug\SMCLoan.dll
+C:\Users\kanawut\Documents\Visual Studio 2012\Projects\SMCLoan\SMCLoan\bin\Debug\SMCLoan.pdb
+C:\Users\kanawut\Documents\Visual Studio 2012\Projects\SMCLoan\SMCLoan\bin\Debug\xunit.abstractions.dll
+C:\Users\kanawut\Documents\Visual Studio 2012\Projects\SMCLoan\SMCLoan\bin\Debug\xunit.assert.dll
+C:\Users\kanawut\Documents\Visual Studio 2012\Projects\SMCLoan\SMCLoan\bin\Debug\xunit.core.dll
+C:\Users\kanawut\Documents\Visual Studio 2012\Projects\SMCLoan\SMCLoan\bin\Debug\xunit.abstractions.xml
+C:\Users\kanawut\Documents\Visual Studio 2012\Projects\SMCLoan\SMCLoan\bin\Debug\xunit.assert.pdb
+C:\Users\kanawut\Documents\Visual Studio 2012\Projects\SMCLoan\SMCLoan\bin\Debug\xunit.assert.xml
+C:\Users\kanawut\Documents\Visual Studio 2012\Projects\SMCLoan\SMCLoan\bin\Debug\xunit.core.pdb
+C:\Users\kanawut\Documents\Visual Studio 2012\Projects\SMCLoan\SMCLoan\bin\Debug\xunit.core.xml
+C:\Users\kanawut\Documents\Visual Studio 2012\Projects\SMCLoan\SMCLoan\obj\Debug\SMCLoan.csprojResolveAssemblyReference.cache
+C:\Users\kanawut\Documents\Visual Studio 2012\Projects\SMCLoan\SMCLoan\obj\Debug\SMCLoan.dll
+C:\Users\kanawut\Documents\Visual Studio 2012\Projects\SMCLoan\SMCLoan\obj\Debug\SMCLoan.pdb
