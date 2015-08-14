@@ -6,6 +6,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 using Xunit.Abstractions;
+using Should;
+
 
 namespace SMCLoanFacts
 {
@@ -13,6 +15,8 @@ namespace SMCLoanFacts
     {
         public class PayMethod
         {
+
+            
 
             private ITestOutputHelper output;
 
@@ -60,6 +64,8 @@ namespace SMCLoanFacts
                 var payment = loan.Pay(d, 10000);
 
 
+                
+
                 // assert
                 Assert.NotNull(payment);
                 Assert.Equal(31, payment.Days);
@@ -70,7 +76,25 @@ namespace SMCLoanFacts
                 Assert.Equal(5945.21m, payment.InterestAmount);
                 Assert.Equal(4054.79m, payment.PaidPrincipalAmount);
 
+
+
                
+            }
+
+            [Fact]
+            public void LoanShouldStorePaymentAfterPaid()
+            {
+                Loan loan = new Loan(
+                         pricipal: 1000000,
+                         outstanding: 1000000,
+                         bank: new Bank("TEST BANK", 7.0M),
+                         lastpaydate: new DateTime(2015, 7, 1)); // 1 Jul, 2015.  
+
+                var p = loan.Pay(new DateTime(2015, 8, 1), 10000);
+
+                loan.Payments.ShouldNotBeNull();
+                loan.Payments.Count().ShouldEqual(1);
+                loan.Payments.ShouldContain(p);
             }
 
 

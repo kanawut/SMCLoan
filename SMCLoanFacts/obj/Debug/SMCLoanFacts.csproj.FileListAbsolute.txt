@@ -16,3 +16,4 @@ C:\Users\kanawut\Documents\Visual Studio 2012\Projects\SMCLoan\SMCLoanFacts\obj\
 C:\Users\kanawut\Documents\Visual Studio 2012\Projects\SMCLoan\SMCLoanFacts\bin\Debug\SMCLoan.dll
 C:\Users\kanawut\Documents\Visual Studio 2012\Projects\SMCLoan\SMCLoanFacts\bin\Debug\SMCLoan.pdb
 C:\Users\kanawut\Documents\Visual Studio 2012\Projects\SMCLoan\SMCLoanFacts\bin\Debug\SMCLoanFacts.dll.config
+C:\Users\kanawut\Documents\Visual Studio 2012\Projects\SMCLoan\SMCLoanFacts\bin\Debug\Should.dll

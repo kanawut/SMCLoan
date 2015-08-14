@@ -12,3 +12,4 @@ C:\Users\kanawut\Documents\Visual Studio 2012\Projects\SMCLoan\SMCLoan\bin\Debug
 C:\Users\kanawut\Documents\Visual Studio 2012\Projects\SMCLoan\SMCLoan\obj\Debug\SMCLoan.csprojResolveAssemblyReference.cache
 C:\Users\kanawut\Documents\Visual Studio 2012\Projects\SMCLoan\SMCLoan\obj\Debug\SMCLoan.dll
 C:\Users\kanawut\Documents\Visual Studio 2012\Projects\SMCLoan\SMCLoan\obj\Debug\SMCLoan.pdb
+C:\Users\kanawut\Documents\Visual Studio 2012\Projects\SMCLoan\SMCLoan\bin\Debug\Should.dll

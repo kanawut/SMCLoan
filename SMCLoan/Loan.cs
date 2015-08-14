@@ -14,12 +14,16 @@ namespace SMCLoan
         public Bank PreviousOwner { get; set; }
         public decimal Accrued { get; set; }
 
+        public List<Payment> Payments { get; set; }
+
         public Loan(decimal pricipal, decimal outstanding, Bank bank, DateTime lastpaydate)
         {
             this.Pricipal = pricipal;
             this.Outstanding = outstanding;
             this.PreviousOwner = bank;
             this.LastPaydate = lastpaydate;
+
+            Payments = new List<Payment>();
         }
 
         public Payment Pay(DateTime date , decimal amount)
@@ -57,6 +61,8 @@ namespace SMCLoan
             {
                 this.Accrued = this.Accrued + ( tempInterestAmount - payment.PaidAmount);
             }
+
+            this.Payments.Add(payment);
 
             return payment;
         }
